@@ -24,6 +24,14 @@ namespace MVC6Test.Controllers
         private readonly ISmsSender _smsSender;
         private readonly ILogger _logger;
 
+        /// <summary>
+        /// Account Controller
+        /// </summary>
+        /// <param name="userManager"></param>
+        /// <param name="signInManager"></param>
+        /// <param name="emailSender"></param>
+        /// <param name="smsSender"></param>
+        /// <param name="loggerFactory"></param>
         public AccountController(
             UserManager<ApplicationUser> userManager,
             SignInManager<ApplicationUser> signInManager,
