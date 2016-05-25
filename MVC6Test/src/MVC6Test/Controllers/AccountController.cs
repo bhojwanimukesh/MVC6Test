@@ -25,7 +25,7 @@ namespace MVC6Test.Controllers
         private readonly ILogger _logger;
 
         /// <summary>
-        /// Account Controller
+        /// Account Controller (updated)
         /// </summary>
         /// <param name="userManager"></param>
         /// <param name="signInManager"></param>
