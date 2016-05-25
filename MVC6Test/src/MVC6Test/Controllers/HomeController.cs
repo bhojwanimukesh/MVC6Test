@@ -9,7 +9,7 @@ namespace MVC6Test.Controllers
     public class HomeController : Controller
     {
         /// <summary>
-        /// Default Index action
+        /// Default Index action (updated)
         /// </summary>
         /// <returns></returns>
         public IActionResult Index()
