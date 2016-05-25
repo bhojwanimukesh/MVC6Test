@@ -13,6 +13,9 @@ using MVC6Test.ViewModels.Manage;
 
 namespace MVC6Test.Controllers
 {
+    /// <summary>
+    /// ManageController
+    /// </summary>
     [Authorize]
     public class ManageController : Controller
     {
