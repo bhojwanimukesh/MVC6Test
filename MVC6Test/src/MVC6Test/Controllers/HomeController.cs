@@ -17,6 +17,10 @@ namespace MVC6Test.Controllers
             return View();
         }
 
+        /// <summary>
+        /// About action
+        /// </summary>
+        /// <returns></returns>
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
